@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+
+    <meta charset="utf-8">
+    <title> Dots and Boxes Game</title>
+
+  </head>
+  <body>
+
+    <header>
+      <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a role="button" onclick="restart();">Restart</a></li>
+    </ul>
+
+    </header>
+    <!-- <button>Restart</button> -->
+<h1> Dots & Boxes Game</h1>
+<div id="overlay"></div>
+<div id="popup">
+    <div class="popupcontrols">
+        <span id="popupclose">Close</span>
+    </div>
+    <div class="popupcontent">
+        <h1 id="popuptext">Some Popup Content</h1>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="board.js"></script>
+<script type="text/javascript" src="Game.js"></script>
+
+  </body>
+</html>
