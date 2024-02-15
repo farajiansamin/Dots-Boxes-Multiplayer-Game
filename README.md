@@ -2,8 +2,9 @@
 
 I have uploaded a Demo for this project, for the purpose of recording I have changed the grid size to 2 but you can change the GRID_SIZE to 4
 To run back_end these are the commands:
+
 npm install
-npm start
+npm start 
 To run the backend project, an instance of MongoDB must run on localhost:27017
 To run the frontend project, you can use this command :
 npm install -g http-server
